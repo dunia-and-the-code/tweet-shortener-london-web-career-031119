@@ -15,6 +15,6 @@ def word_substituter(string)
   dictionary_a = words_to_be_substituted.keys
   string_a = string.split(//)
     string_a.each do |word|
-      if word == dictionary_a
+      if 
   
 end
