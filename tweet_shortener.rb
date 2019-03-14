@@ -12,7 +12,7 @@ def dictionary
 end
 
 def word_substituter(string)
-  dictionary_a = words_to_be_substituted.keys
+  dictionary_a = dictionary.keys
   string_a = string.split(//)
     string_a.each do |word|
       if 
